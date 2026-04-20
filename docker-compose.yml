@@ -1,0 +1,26 @@
+services:
+  backend:
+    build: ./backend
+    container_name: portfolio-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+    networks: [portfolio]
+
+  frontend:
+    build: ./frontend
+    container_name: portfolio-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks: [portfolio]
+
+networks:
+  portfolio:
+    driver: bridge
