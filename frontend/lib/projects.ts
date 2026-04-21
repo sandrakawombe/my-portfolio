@@ -36,8 +36,8 @@ export const PROJECTS: Project[] = [
     long:
       "React + FastAPI. The FastAPI proxy keeps the OpenWeather API key off the client. Includes geolocation autodetect, recent-search history, and a gradient sky that interpolates between palettes based on the current condition and time of day.",
     stack: ["React", "FastAPI", "OpenWeather", "Framer Motion"],
-    liveUrl: "https://weather-sandra.vercel.app",
-    repoUrl: "https://github.com/sandrakawombe/weather-app",
+    liveUrl: "https://weather-beta-ochre.vercel.app/",
+    repoUrl: "https://github.com/sandrakawombe/weather",
     theme: "p2",
   },
   {
