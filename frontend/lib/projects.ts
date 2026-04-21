@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
     long:
       "Uses the browser's native Web Speech API for fast on-device transcription, with an optional FastAPI backend that runs Whisper for higher-accuracy offline processing. Supports auto-punctuation, multi-language, export to .txt/.md/.docx, and a focus-mode minimal UI.",
     stack: ["React", "Web Speech API", "FastAPI", "Whisper (opt.)"],
-    liveUrl: "https://totext-sandra.vercel.app",
+    liveUrl: "https://totext-seven.vercel.app/",
     repoUrl: "https://github.com/sandrakawombe/totext",
     theme: "p1",
   },
