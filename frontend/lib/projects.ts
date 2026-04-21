@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
     long:
       "Full-stack: React frontend with infinite-scroll cards, FastAPI backend with PostgreSQL. Filters by region, budget bracket, season, and trip-style tags. Mapbox integration for visual discovery.",
     stack: ["React", "FastAPI", "PostgreSQL", "Mapbox"],
-    liveUrl: "https://travel-sandra.vercel.app",
+    liveUrl: "https://travel-app-peach-six.vercel.app/",
     repoUrl: "https://github.com/sandrakawombe/travel-app",
     theme: "p3",
   },
